@@ -1,0 +1,86 @@
+.sidenav {
+  min-height: 67vh;
+}
+
+.title_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title_logo .title {
+  margin-top: 0.5rem !important;
+  padding-left: 1.5rem;
+  padding-top: 1em;
+  text-overflow: ellipsis;
+  padding-bottom: 2rem;
+  font-size: 14px !important;
+  color: gold !important;
+}
+
+.mainpage {
+  background: #fff !important;
+}
+
+.header {
+  background-color: #fff;
+  padding: 0;
+  border-bottom: 0.5px solid rgb(225, 224, 224);
+  height: 54px;
+  position: absolute;
+  left: 200px;
+}
+
+.topheader {
+  background-color: #fff;
+  padding: 0;
+  border-bottom: 0.5px solid rgb(225, 224, 224);
+  height: 54px;
+  position: relative;
+  left: 80px;
+}
+
+#orderTitle {
+  font-size: 20px;
+  display: inline-block;
+  border-right: 1px solid rgb(225, 224, 224);
+  padding-right: 2rem;
+  position: relative;
+  top: 0px;
+  padding-left: 2rem;
+}
+
+.tab_title {
+  border: none;
+  outline: none;
+  padding-right: 2rem;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 13px 10px;
+  margin-right: 2rem;
+  position: relative;
+  top: 0px;
+}
+
+.tab_title.active {
+  color: #1677ff;
+  border-bottom: 1px solid #1677ff;
+  margin-left: 1rem;
+}
+
+.tabs {
+  display: inline-block;
+  margin-left: 1rem !important;
+  margin-top: 18px;
+  color: rgb(225, 224, 224) !important;
+  position: relative;
+  top: -10px;
+}
+
+.table-container {
+  margin-top: 1rem;
+}
+
+.ant-btn-text {
+  color: #000 !important;
+}/*# sourceMappingURL=sidenav-page.module.css.map */
